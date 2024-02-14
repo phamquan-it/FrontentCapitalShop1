@@ -1,0 +1,31 @@
+.group-child a{
+    color: rgb(87, 87, 87);
+}
+
+.group-child:hover a{
+    color: azure;
+}
+.slick-next,.slick-prev{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 40%;
+    color: transparent;
+    border: 2px solid black;
+    border-left: none;
+    border-bottom: none;
+    transform: rotate(45deg);
+}
+.slick-prev{
+    transform: rotate(225deg);
+    left: 0px;
+    z-index: 100;
+}
+.slick-next:hover,.slick-prev:hover{
+    border-color: red;
+}
+
+#data-carousel-prev{
+    background-color: blueviolet!important;
+}
